@@ -7,13 +7,13 @@ const products = [
         price: 500,
         images: [
             "images/hoodie negro frente.jpg",
-            "images/HOODIE BLANCA FRENTE.JPG",
-            "images/HOODIE SHEEP ROJO ESPALDA.JPG",
-            "images/HOODIE BLANCA SHEEP ROJO.PNG",
+            "AQUELARRE/images/HOODIE BLANCA FRENTE.jpg",
+            "images/HOODIE SHEEP ROJO ESPALDA.jpg",
+            "images/HOODIE BLANCA SHEEP ROJO.png",
             "images/hoodie sheep morado.jpg",
-            "images/HOODIE BLANCA SHEEP MORADO.JPG",
+            "images/HOODIE BLANCA SHEEP MORADO.jpg",
             "images/hoodie sheep gris.jpg",
-            "images/HOODIE BLANCA SHEEP GRIS.JPG"
+            "images/HOODIE BLANCA SHEEP GRIS.jpg"
         ],
         category: "Chamarras sin cierre",
         baseColors: ["Negro", "Blanco"],
@@ -25,13 +25,13 @@ const products = [
         price: 500,
         images: [
             "images/hoodie negro frente.jpg",
-            "images/HOODIE BLANCA FRENTE.JPG",
+            "images/HOODIE BLANCA FRENTE.jpg",
             "images/hoodie skull rojo.jpg",
             "images/hoodie blanca skull rojo.png",
             "images/hoodie skull morado.jpg",
             "images/hoodie blanca skull morado.png",
-            "images/hoodie skull gris.JPG",
-            "images/HOODIE BLANCA skull GRIS.JPG"
+            "images/hoodie skull gris.jpg",
+            "images/HOODIE BLANCA skull GRIS.jpg"
         ],
         category: "Chamarras sin cierre",
         baseColors: ["Negro", "Blanco"],
