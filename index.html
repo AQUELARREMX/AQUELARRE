@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquelarre - Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>aquelarre</h1>
+                </div>
+                <nav class="nav-desktop">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#productos" class="nav-link">Productos</a>
+                    <a href="#sobre-nosotros" class="nav-link">Sobre Nosotros</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </nav>
+                <div class="header-actions">
+                    <a href="https://www.instagram.com/_aquelarre_mx?igsh=d2V4bDRpN2QzcGt6" target="_blank" class="instagram-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <button class="menu-toggle" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#inicio" class="nav-link" onclick="closeMobileMenu()">Inicio</a>
+                <a href="#productos" class="nav-link" onclick="closeMobileMenu()">Productos</a>
+                <a href="#sobre-nosotros" class="nav-link" onclick="closeMobileMenu()">Sobre Nosotros</a>
+                <a href="#contacto" class="nav-link" onclick="closeMobileMenu()">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Aquelarre</h1>
+                <p class="hero-subtitle">Join The Cult</p>
+                <p class="hero-description">
+                    <p>
+                          En AQUELARRE, cada prenda es el resultado de un proceso cuidado: 
+                         serigrafía fina sobre algodón puro, ediciones limitadas y un diseño 
+                           que celebra la oscuridad. Creaciones bajo pedido 
+                         para quienes valoran lo auténtico.
+                    </p>
+
+                </p>
+                <div class="hero-buttons">
+                    <a href="#productos" class="btn btn-primary">Explorar Colección</a>
+                    <a href="#sobre-nosotros" class="btn btn-outline">Sobre Nosotros</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="productos" class="products-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nuestra Colección</h2>
+                    <p class="section-description">
+                        Cada diseño ha sido elaborado con detalle y calidad. 
+                    Explora nuestras prendas únicas y haz tu pedido personalizado
+                    </p>
+                </div>
+                <div class="products-grid" id="productsGrid">
+                    <!-- Los productos se generarán con JavaScript -->
+                </div>
+                <div class="bulk-order">
+                    <p>¿Quieres más de una prenda? Haz tu pedido personalizado.</p>
+                    <button class="btn btn-success" onclick="openWhatsApp('Hola! Me gustaría hacer un pedido de múltiples prendas')">
+                        Pedido de Múltiples Prendas
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre-nosotros" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <h2 class="section-title">Sobre Aquelarre</h2>
+                        <p class="about-intro">
+                            Aquelarre es una marca de moda alternativa enfocada en ropa serigrafiada en 100% algodón. 
+                            Nos especializamos en pedidos bajo demanda y drops limitados que reflejan 
+                            estilo y autenticidad.
+                        </p>
+                        <div class="features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Calidad Premium</h3>
+                                    <p>Cada pieza es seleccionada con cuidado, garantizando materiales de alta calidad y acabados excepcionales.</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-moon"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Pasión por lo Único</h3>
+                                    <p>Creemos en la expresión personal a través del estilo. Cada cliente encuentra su pieza perfecta para contar su historia.</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Magia en cada Detalle</h3>
+                                    <p>Desde el empaque hasta la experiencia de compra, cada momento está diseñado para ser especial y memorable.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="testimonial-card">
+                            <img src="images/PORTADA DE PAGINA 3.jpg" alt="Aquelarre Store">
+                            <blockquote>
+                                <p>"  En Aquelarre creemos que cada persona merece una prenda que hable por sí sola. 
+                                        Diseñamos con propósito, producimos con calidad."</p>
+                                <footer>- Fundador de Aquelarre</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <i class="fas fa-moon"></i>
+                        <h3>Aquelarre</h3>
+                    </div>
+                    <p>
+                        El refugio de quienes desafían la luz.  
+                        Viste lo profano, invoca lo oculto, habita lo eterno.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/_aquelarre_mx?igsh=d2V4bDRpN2QzcGt6" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h4>Categorías</h4>
+                    <ul>
+                        <li><a href="#productos">Chamarras</a></li>
+                        <li><a href="#productos">Playeras Manga Larga</a></li>
+                        <li><a href="#productos">Playeras Manga Corta</a></li>
+                        <li><a href="#productos">Pedidos Especiales y Más</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aquelarremercgmx@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>México, CDMX</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-success btn-full" onclick="openWhatsApp('Hola! Me gustaría obtener más información sobre Aquelarre')">
+                        Contactar por WhatsApp
+                    </button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aquelarre. Hecho con magia y pasión.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-button" onclick="openWhatsApp('¡Hola! Me gustaría obtener más información sobre los productos de Aquelarre')">
+        <i class="fab fa-whatsapp"></i>
+        <div class="whatsapp-tooltip">¡Contáctanos por WhatsApp!</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
