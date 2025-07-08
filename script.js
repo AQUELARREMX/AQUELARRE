@@ -112,7 +112,7 @@ const products = [
     {
         id: 7,
         name: "ESSENTIALS",
-        price: 400,
+        price: 300,
         images: [
             "images/gorra frente.jpg",
             "images/gorra reverso.jpg"
