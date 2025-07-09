@@ -454,11 +454,11 @@ font-size: 1.1rem;
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background: rgba(139, 92, 246, 0.9);
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 0.5rem 1rem;
     border-radius: 25px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
     backdrop-filter: blur(10px);
 }

@@ -20,24 +20,6 @@ const products = [
         designColors: ["Rojo", "Morado", "Gris",]
     },
     {
-        id: 2,
-        name: "DEATH SKULL",
-        price: 500,
-        images: [
-            "images/hoodie negro frente.jpg",
-            "images/HOODIE BLANCA FRENTE.jpg",
-            "images/hoodie skull rojo.jpg",
-            "images/hoodie blanca skull rojo.png",
-            "images/hoodie skull morado.jpg",
-            "images/hoodie blanca skull morado.png",
-            "images/hoodie skull gris.jpg",
-            "images/HOODIE BLANCA skull GRIS.jpg"
-        ],
-        category: "Chamarras sin cierre",
-        baseColors: ["Negro", "Blanco"],
-        designColors: ["Rojo", "Morado", "Gris"]
-    },
-    {
         id: 3,
         name: "SHEEP CURSED",
         price: 350,
@@ -50,24 +32,6 @@ const products = [
             "images/tshirt blanca sheep morado.jpg",
             "images/tshirt negro sheep gris.jpg",
             "images/tshirt blanca sheep gris.jpg"
-        ],
-        category: "Manga Corta Regular Fit",
-        baseColors: ["Blanco", "Negro"],
-        designColors: ["Rojo", "Morado", "Gris"]
-    },
-    {
-        id: 4,
-        name: "DEATH SKULL",
-        price: 350,
-        images: [
-            "images/tshirt negra frente.jpg",
-            "images/tshirt blanca frente.jpg",
-            "images/tshirt skull roja reverso.jpg",
-            "images/tshirt blanca skull rojo.jpg",
-            "images/tshirt skull morada reverso.jpg",
-            "images/tshirt blanca skull morado.jpg",
-            "images/TSHIRT NEGRA SKULL REVERSO.jpg",
-            "images/tshirt blanca skull gris.jpg"
         ],
         category: "Manga Corta Regular Fit",
         baseColors: ["Blanco", "Negro"],
@@ -92,6 +56,44 @@ const products = [
         designColors: ["Rojo", "Morado", "Gris"]
     },
     {
+        id: 2,
+        name: "DEATH SKULL",
+        price: 500,
+        images: [
+            "images/hoodie negro frente.jpg",
+            "images/HOODIE BLANCA FRENTE.jpg",
+            "images/hoodie skull rojo.jpg",
+            "images/hoodie blanca skull rojo.png",
+            "images/hoodie skull morado.jpg",
+            "images/hoodie blanca skull morado.png",
+            "images/hoodie skull gris.jpg",
+            "images/HOODIE BLANCA skull GRIS.jpg"
+        ],
+        category: "Chamarras sin cierre",
+        baseColors: ["Negro", "Blanco"],
+        designColors: ["Rojo", "Morado", "Gris"]
+    },
+    
+    {
+        id: 4,
+        name: "DEATH SKULL",
+        price: 350,
+        images: [
+            "images/tshirt negra frente.jpg",
+            "images/tshirt blanca frente.jpg",
+            "images/tshirt skull roja reverso.jpg",
+            "images/tshirt blanca skull rojo.jpg",
+            "images/tshirt skull morada reverso.jpg",
+            "images/tshirt blanca skull morado.jpg",
+            "images/TSHIRT NEGRA SKULL REVERSO.jpg",
+            "images/tshirt blanca skull gris.jpg"
+        ],
+        category: "Manga Corta Regular Fit",
+        baseColors: ["Blanco", "Negro"],
+        designColors: ["Rojo", "Morado", "Gris"]
+    },
+    
+    {
         id: 6,
         name: "DEATH SKULL",
         price: 380,
@@ -107,6 +109,46 @@ const products = [
         ],
         category: "Manga Larga",
         baseColors: ["Blanco", "Negro"],
+        designColors: ["Rojo", "Morado", "Gris"]
+    },
+    {
+        id: 9,
+        name: "SHEEP CURSED",
+        price: 600,
+        images: [
+            "images/hoodie negra con cierre frente.jpg",
+            "images/CHAMARRA NEGRA SHHEP ROJO.jpg",
+            "images/CHAMARRA NEGRA SHEEP MORADO.jpg",
+            "images/CHAMARRA NEGRA SHEEP GRIS.jpg"   
+        ],
+        category: "Chamarras con cierre",
+        baseColors: ["Negro",],
+        designColors: ["Rojo", "Morado", "Gris"]
+    },
+    {
+        id: 8,
+        name: "ESSENTIALS",
+        price: 380,
+        images: [
+            "images/OVERSIZE NEGRA ESSENTIALS.jpg",
+            "images/OVERSIZE BLANCO ESSENTIALS.jpg"
+        ],
+        category: "Playera Oversize",
+        baseColors: ["Negro", "Blanco"],
+        designColors: ["Blanco", "Negro"]
+    },
+    {
+        id: 10,
+        name: "DEATH SKULL",
+        price: 600,
+        images: [
+            "images/hoodie negra con cierre frente.jpg",
+            "images/CHAMARRA NEGRA SKULL ROJO.jpg",
+            "images/CHAMARRA NEGRA SKULL MORADO.jpg",
+            "images/CHAMARRA NEGRA SKULL GRIS.jpg"   
+        ],
+        category: "Chamarras con cierre",
+        baseColors: ["Negro",],
         designColors: ["Rojo", "Morado", "Gris"]
     },
     {
@@ -132,47 +174,8 @@ const products = [
         category: "Gorra Plana",
         baseColors: ["Negro"],
         designColors: ["Blanco"]
-    },
-    {
-        id: 8,
-        name: "ESSENTIALS",
-        price: 380,
-        images: [
-            "images/OVERSIZE NEGRA ESSENTIALS.jpg",
-            "images/OVERSIZE BLANCO ESSENTIALS.jpg"
-        ],
-        category: "Playera Oversize",
-        baseColors: ["Negro", "Blanco"],
-        designColors: ["Blanco", "Negro"]
-    },
-    {
-        id: 9,
-        name: "SHEEP CURSED",
-        price: 600,
-        images: [
-            "images/hoodie negra con cierre frente.jpg",
-            "images/CHAMARRA NEGRA SHHEP ROJO.jpg",
-            "images/CHAMARRA NEGRA SHEEP MORADO.jpg",
-            "images/CHAMARRA NEGRA SHEEP GRIS.jpg"   
-        ],
-        category: "Chamarras con cierre",
-        baseColors: ["Negro",],
-        designColors: ["Rojo", "Morado", "Gris"]
-    },
-    {
-        id: 10,
-        name: "DEATH SKULL",
-        price: 600,
-        images: [
-            "images/hoodie negra con cierre frente.jpg",
-            "images/CHAMARRA NEGRA SKULL ROJO.jpg",
-            "images/CHAMARRA NEGRA SKULL MORADO.jpg",
-            "images/CHAMARRA NEGRA SKULL GRIS.jpg"   
-        ],
-        category: "Chamarras con cierre",
-        baseColors: ["Negro",],
-        designColors: ["Rojo", "Morado", "Gris"]
     }
+    
 
 ];
 
