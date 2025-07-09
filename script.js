@@ -117,7 +117,19 @@ const products = [
             "images/gorra frente.jpg",
             "images/gorra reverso.jpg"
         ],
-        category: "GORRA",
+        category: "Gorra Curva",
+        baseColors: ["Negro"],
+        designColors: ["Blanco"]
+    },
+    {
+        id: 11,
+        name: "ESSENTIALS",
+        price: 300,
+        images: [
+            "images/GORRA PLANA FRENTE.jpg",
+            "images/gorra reverso.jpg"
+        ],
+        category: "Gorra Plana",
         baseColors: ["Negro"],
         designColors: ["Blanco"]
     },
@@ -167,6 +179,9 @@ const products = [
 // Estado global para manejar las cards de productos
 let productStates = {};
 
+// Variable global para controlar si las compras están habilitadas
+let purchasesEnabled = false;
+
 // Funciones de utilidad
 function getColorClass(color) {
     const colorMap = {
@@ -188,6 +203,12 @@ function openWhatsApp(message) {
 
 // Función para comprar producto
 function buyProduct(productId) {
+    // Verificar si las compras están habilitadas
+    if (!purchasesEnabled) {
+        // Mostrar mensaje de que el lanzamiento aún no está disponible
+        alert('🔮 ¡El nuevo drop aún no está disponible! Espera a que termine la cuenta regresiva para realizar tu pedido.');
+        return;
+    }
     const state = productStates[productId];
     const product = products.find(p => p.id === productId);
     
@@ -435,6 +456,9 @@ function initCountdown() {
             if (secondsEl) secondsEl.textContent = seconds.toString().padStart(2, '0');
         } else {
             clearInterval(countdown);
+            // HABILITAR COMPRAS CUANDO TERMINE EL COUNTDOWN
+            purchasesEnabled = true;
+            updateAllPurchaseButtons();
             if (messageEl) {
                 messageEl.textContent = '¡El nuevo drop ya está disponible!';
                 messageEl.classList.add('show');

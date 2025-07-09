@@ -4,7 +4,7 @@
     --secondary-color: #A855F7;
     --accent-color: #EC4899;
     --background-dark: #0F0F0F;
-    --background-light: #1A1A1A;
+    --background-light: #0A0414;
     --text-light: #F8F9FA;
     --text-muted: #9CA3AF;
     --border-color: #374151;
@@ -325,6 +325,40 @@ body {
 .btn-success:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
+}
+
+/* NUEVO: Estilo para botones deshabilitados */
+.btn.disabled {
+    background-color: #666 !important;
+    color: #999 !important;
+    border-color: #666 !important;
+    cursor: not-allowed !important;
+    opacity: 0.6;
+}
+
+.btn.disabled:hover {
+    background-color: #666 !important;
+    color: #999 !important;
+    border-color: #666 !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* ESPECÍFICO PARA BOTONES DE ÉXITO DESHABILITADOS */
+.btn-success.disabled {
+    background-color: #666 !important;
+    color: #999 !important;
+    border-color: #666 !important;
+    cursor: not-allowed !important;
+    opacity: 0.6;
+}
+
+.btn-success.disabled:hover {
+    background-color: #666 !important;
+    color: #999 !important;
+    border-color: #666 !important;
+    transform: none !important;
+    box-shadow: none !important;
 }
 
 .btn-full {
