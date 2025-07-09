@@ -7,7 +7,7 @@ const products = [
         price: 500,
         images: [
             "images/hoodie negro frente.jpg",
-            "AQUELARRE/images/HOODIE BLANCA FRENTE.jpg",
+            "images/HOODIE BLANCA FRENTE.jpg",
             "images/HOODIE SHEEP ROJO ESPALDA.jpg",
             "images/HOODIE BLANCA SHEEP ROJO.png",
             "images/hoodie sheep morado.jpg",
@@ -409,9 +409,50 @@ function closeMobileMenu() {
         menuToggle.className = 'fas fa-bars';
     }
 }
+function initCountdown() {
+    // Establecer la fecha de lanzamiento (cambiar por la fecha real)
+    const launchDate = new Date('2025-07-14T23:59:59').getTime();
+    
+    const daysEl = document.getElementById('days');
+    const hoursEl = document.getElementById('hours');
+    const minutesEl = document.getElementById('minutes');
+    const secondsEl = document.getElementById('seconds');
+    const messageEl = document.getElementById('countdownMessage');
+    
+    const countdown = setInterval(function() {
+        const now = new Date().getTime();
+        const distance = launchDate - now;
+        
+        if (distance > 0) {
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            if (daysEl) daysEl.textContent = days.toString().padStart(2, '0');
+            if (hoursEl) hoursEl.textContent = hours.toString().padStart(2, '0');
+            if (minutesEl) minutesEl.textContent = minutes.toString().padStart(2, '0');
+            if (secondsEl) secondsEl.textContent = seconds.toString().padStart(2, '0');
+        } else {
+            clearInterval(countdown);
+            if (messageEl) {
+                messageEl.textContent = '¡El nuevo drop ya está disponible!';
+                messageEl.classList.add('show');
+            }
+            // Ocultar los números cuando termine
+            if (daysEl) daysEl.textContent = '00';
+            if (hoursEl) hoursEl.textContent = '00';
+            if (minutesEl) minutesEl.textContent = '00';
+            if (secondsEl) secondsEl.textContent = '00';
+        }
+    }, 1000);
+}
 
 // Smooth scroll para navegación
 document.addEventListener('DOMContentLoaded', function() {
+       // Inicializar cuenta regresiva
+    initCountdown();
+    
     // Generar productos
     const productsGrid = document.getElementById('productsGrid');
     if (productsGrid) {
