@@ -595,12 +595,12 @@ font-size: 1.1rem;
 
 .color-option:hover {
     transform: scale(1.1);
-    border-color: var(--primary-color);
+    border-color:rgb(0, 201, 67);
 }
 
 .color-option.selected {
     border-color: var(--primary-color);
-    box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+    box-shadow: 0 0 10px rgba(0, 201, 67);
 }
 
 .color-option.selected::after {
@@ -609,7 +609,7 @@ font-size: 1.1rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(0, 201, 67);
     font-size: 0.8rem;
     font-weight: bold;
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
@@ -620,7 +620,7 @@ font-size: 1.1rem;
 .color-negro { background-color: #000000; }
 .color-rojo { background-color: #dc2626; }
 .color-morado { background-color: #7c3aed; }
-.color-plateado { background-color: #94a3b8; }
+.color-Gris { background-color: #6b6b6b; }
 
 .buy-button {
     width: 100%;
