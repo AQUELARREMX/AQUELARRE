@@ -63,7 +63,7 @@ const products = [
             "images/hoodie negro frente.jpg",
             "images/HOODIE BLANCA FRENTE.jpg",
             "images/hoodie skull rojo.jpg",
-            "images/hoodie blanca skull rojo.png",
+            "images/HOODIE BLANCA SKULL ROJO.png",
             "images/hoodie skull morado.jpg",
             "images/hoodie blanca skull morado.png",
             "images/hoodie skull gris.jpg",
