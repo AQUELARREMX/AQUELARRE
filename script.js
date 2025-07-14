@@ -20,7 +20,7 @@ const products = [
         designColors: ["Rojo", "Morado", "Gris",]
     },
     {
-        id: 3,
+        id: 2,
         name: "SHEEP CURSED",
         price: 350,
         images: [
@@ -38,7 +38,7 @@ const products = [
         designColors: ["Rojo", "Morado", "Gris"]
     },
     {
-        id: 5,
+        id: 3,
         name: "SHEEP CURSED",
         price: 380,
         images: [
@@ -56,7 +56,7 @@ const products = [
         designColors: ["Rojo", "Morado", "Gris"]
     },
     {
-        id: 2,
+        id: 4,
         name: "DEATH SKULL",
         price: 500,
         images: [
@@ -65,9 +65,9 @@ const products = [
             "images/hoodie skull rojo.jpg",
             "images/HOODIE BLANCA SKULL ROJO.png",
             "images/hoodie skull morado.jpg",
-            "images/hoodie blanca skull morado.png",
+            "images/HOODIE BLANCA SKULL MORADO.png",
             "images/hoodie skull gris.jpg",
-            "images/HOODIE BLANCA skull GRIS.jpg"
+            "images/HOODIE BLANCA SKULL GRIS.jpg"
         ],
         category: "Chamarras sin cierre",
         baseColors: ["Negro", "Blanco"],
@@ -75,7 +75,7 @@ const products = [
     },
     
     {
-        id: 4,
+        id: 5,
         name: "DEATH SKULL",
         price: 350,
         images: [
@@ -112,7 +112,7 @@ const products = [
         designColors: ["Rojo", "Morado", "Gris"]
     },
     {
-        id: 9,
+        id: 7,
         name: "SHEEP CURSED",
         price: 600,
         images: [
@@ -138,7 +138,7 @@ const products = [
         designColors: ["Blanco", "Negro"]
     },
     {
-        id: 10,
+        id: 9,
         name: "DEATH SKULL",
         price: 600,
         images: [
@@ -152,7 +152,7 @@ const products = [
         designColors: ["Rojo", "Morado", "Gris"]
     },
     {
-        id: 7,
+        id: 10,
         name: "ESSENTIALS",
         price: 300,
         images: [
