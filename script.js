@@ -174,6 +174,30 @@ const products = [
         category: "Gorra Plana",
         baseColors: ["Negro"],
         designColors: ["Blanco"]
+    },
+    {
+        id: 12,
+        name: "ESSENTIALS",
+        price: 280,
+        images: [
+            "images/TSHIRT NEGRA ESSENTIALS.jpg",
+            "images/TSHIRT BLANCA ESSENTIALS (1).jpg"
+        ],
+        category: "Manga Corta Regular Fit",
+        baseColors: ["Negro", "Blanco"],
+        designColors: ["Blanco", "Negro"]
+    },
+    {
+        id: 13,
+        name: "ESSENTIALS",
+        price: 300,
+        images: [
+            "images/longsleeve negra essentials.jpg",
+            "images/LONGSLEEVE BLANCA ESSENTIALS.jpg"
+        ],
+        category: "Manga Larga",
+        baseColors: ["Negro", "Blanco"],
+        designColors: ["Blanco", "Negro"]
     }
     
 
