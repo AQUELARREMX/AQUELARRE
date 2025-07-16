@@ -13,11 +13,13 @@ const products = [
             "images/hoodie sheep morado.jpg",
             "images/HOODIE BLANCA SHEEP MORADO.jpg",
             "images/hoodie sheep gris.jpg",
-            "images/HOODIE BLANCA SHEEP GRIS.jpg"
+            "images/HOODIE BLANCA SHEEP GRIS.jpg",
+            "images/hoodie sheep negra dorada.jpg",
+            "images/hoodie sheep blanca dorada.jpg"
         ],
         category: "Chamarras sin cierre",
         baseColors: ["Negro", "Blanco"],
-        designColors: ["Rojo", "Morado", "Gris",]
+        designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
     {
         id: 2,
@@ -31,11 +33,13 @@ const products = [
             "images/tshirt negra sheep morado.jpg",
             "images/tshirt blanca sheep morado.jpg",
             "images/tshirt negro sheep gris.jpg",
-            "images/tshirt blanca sheep gris.jpg"
+            "images/tshirt blanca sheep gris.jpg",
+            "images/tshirt sheep negra dorada.jpg",
+            "images/tshirt sheep blanca dorada.jpg"
         ],
         category: "Manga Corta Regular Fit",
         baseColors: ["Blanco", "Negro"],
-        designColors: ["Rojo", "Morado", "Gris"]
+        designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
     {
         id: 3,
@@ -49,11 +53,13 @@ const products = [
             "images/longsleeve negro sheep morado.jpg",
             "images/longsleeve blanca sheep morado.jpg",
             "images/longsleeve negro sheep gris.jpg",
-            "images/longsleeve blanco sheep gris.jpg"
+            "images/longsleeve blanco sheep gris.jpg",
+            "images/longsleeve sheep negro dorado.jpg",
+            "images/longsleeve sheep blanco dorado.jpg"
         ],
         category: "Manga Larga",
         baseColors: ["Blanco", "Negro"],
-        designColors: ["Rojo", "Morado", "Gris"]
+        designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
     {
         id: 4,
@@ -67,11 +73,13 @@ const products = [
             "images/hoodie skull morado.jpg",
             "images/HOODIE BLANCA SKULL MORADO.png",
             "images/hoodie skull gris.jpg",
-            "images/HOODIE BLANCA SKULL GRIS.jpg"
+            "images/HOODIE BLANCA SKULL GRIS.jpg",
+            "images/hoodie skull negra dorada.jpg",
+            "images/hoodie skull blanca dorada.jpg"
         ],
         category: "Chamarras sin cierre",
         baseColors: ["Negro", "Blanco"],
-        designColors: ["Rojo", "Morado", "Gris"]
+        designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
     
     {
@@ -86,11 +94,13 @@ const products = [
             "images/tshirt skull morada reverso.jpg",
             "images/tshirt blanca skull morado.jpg",
             "images/TSHIRT NEGRA SKULL REVERSO.jpg",
-            "images/tshirt blanca skull gris.jpg"
+            "images/tshirt blanca skull gris.jpg",
+            "images/tshirt skull negra dorada.jpg",
+            "images/tshirt skull blanca dorada.jpg"
         ],
         category: "Manga Corta Regular Fit",
         baseColors: ["Blanco", "Negro"],
-        designColors: ["Rojo", "Morado", "Gris"]
+        designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
     
     {
@@ -105,11 +115,13 @@ const products = [
             "images/longsleeve negro skull morado.jpg",
             "images/longsleeve blanca skull morada.jpg",
             "images/long sleeve negro skull gris.jpg",
-            "images/longsleeve blanca skull gris.jpg"
+            "images/longsleeve blanca skull gris.jpg",
+            "images/longsleeve skull negro dorado.jpg",
+            "images/longsleeve skull blanco dorado.jpg"
         ],
         category: "Manga Larga",
         baseColors: ["Blanco", "Negro"],
-        designColors: ["Rojo", "Morado", "Gris"]
+        designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
     {
         id: 7,
@@ -119,11 +131,12 @@ const products = [
             "images/hoodie negra con cierre frente.jpg",
             "images/CHAMARRA NEGRA SHHEP ROJO.jpg",
             "images/CHAMARRA NEGRA SHEEP MORADO.jpg",
-            "images/CHAMARRA NEGRA SHEEP GRIS.jpg"   
+            "images/CHAMARRA NEGRA SHEEP GRIS.jpg",
+            "images/hoodie sheep negra dorada.jpg"   
         ],
         category: "Chamarras con cierre",
         baseColors: ["Negro",],
-        designColors: ["Rojo", "Morado", "Gris"]
+        designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
     {
         id: 8,
@@ -145,11 +158,12 @@ const products = [
             "images/hoodie negra con cierre frente.jpg",
             "images/CHAMARRA NEGRA SKULL ROJO.jpg",
             "images/CHAMARRA NEGRA SKULL MORADO.jpg",
-            "images/CHAMARRA NEGRA SKULL GRIS.jpg"   
+            "images/CHAMARRA NEGRA SKULL GRIS.jpg",
+            "images/hoodie skull negra dorada.jpg"   
         ],
         category: "Chamarras con cierre",
         baseColors: ["Negro",],
-        designColors: ["Rojo", "Morado", "Gris"]
+        designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
     {
         id: 10,
@@ -216,7 +230,8 @@ function getColorClass(color) {
         'Negro': 'color-negro',
         'Rojo': 'color-rojo',
         'Morado': 'color-morado',
-        'Gris': 'color-Gris'
+        'Gris': 'color-Gris',
+        'Golden': 'color-Golden',
     };
     return colorMap[color] || 'color-negro';
 }
