@@ -17,7 +17,7 @@ const products = [
             "images/hoodie sheep negra dorada.jpg",
             "images/hoodie sheep blanca dorada.jpg"
         ],
-        category: "Chamarras sin cierre",
+        category: "Chamarras sin cierre.",
         baseColors: ["Negro", "Blanco"],
         designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
@@ -37,13 +37,13 @@ const products = [
             "images/tshirt sheep negra dorada.jpg",
             "images/tshirt sheep blanca dorada.jpg"
         ],
-        category: "Manga Corta Regular Fit",
+        category: "Manga Corta Regular Fit.",
         baseColors: ["Blanco", "Negro"],
         designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
     {
         id: 3,
-        name: "SHEEP CURSED",
+        name: "SHEEP CURSED.",
         price: 380,
         images: [
             "images/longsleeve negro frente.jpg",
@@ -57,7 +57,7 @@ const products = [
             "images/longsleeve sheep negro dorado.jpg",
             "images/longsleeve sheep blanco dorado.jpg"
         ],
-        category: "Manga Larga",
+        category: "Manga Larga.",
         baseColors: ["Blanco", "Negro"],
         designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
@@ -77,7 +77,7 @@ const products = [
             "images/hoodie skull negra dorada.jpg",
             "images/hoodie skull blanca dorada.jpg"
         ],
-        category: "Chamarras sin cierre",
+        category: "Chamarras sin cierre.",
         baseColors: ["Negro", "Blanco"],
         designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
@@ -98,7 +98,7 @@ const products = [
             "images/tshirt skull negra dorada.jpg",
             "images/tshirt skull blanca dorada.jpg"
         ],
-        category: "Manga Corta Regular Fit",
+        category: "Manga Corta Regular Fit.",
         baseColors: ["Blanco", "Negro"],
         designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
@@ -119,7 +119,7 @@ const products = [
             "images/longsleeve skull negro dorado.jpg",
             "images/longsleeve skull blanco dorado.jpg"
         ],
-        category: "Manga Larga",
+        category: "Manga Larga.",
         baseColors: ["Blanco", "Negro"],
         designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
@@ -134,7 +134,7 @@ const products = [
             "images/CHAMARRA NEGRA SHEEP GRIS.jpg",
             "images/hoodie sheep negra dorada.jpg"   
         ],
-        category: "Chamarras con cierre",
+        category: "Chamarras con cierre.",
         baseColors: ["Negro",],
         designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
@@ -146,7 +146,7 @@ const products = [
             "images/OVERSIZE NEGRA ESSENTIALS.jpg",
             "images/OVERSIZE BLANCO ESSENTIALS.jpg"
         ],
-        category: "Playera Oversize",
+        category: "Playera Oversize.",
         baseColors: ["Negro", "Blanco"],
         designColors: ["Blanco", "Negro"]
     },
@@ -161,7 +161,7 @@ const products = [
             "images/CHAMARRA NEGRA SKULL GRIS.jpg",
             "images/hoodie skull negra dorada.jpg"   
         ],
-        category: "Chamarras con cierre",
+        category: "Chamarras con cierre.",
         baseColors: ["Negro",],
         designColors: ["Rojo", "Morado", "Gris", "Golden"]
     },
@@ -173,7 +173,7 @@ const products = [
             "images/gorra frente.jpg",
             "images/gorra reverso.jpg"
         ],
-        category: "Gorra Curva",
+        category: "Gorra Curva.",
         baseColors: ["Negro"],
         designColors: ["Blanco"]
     },
@@ -185,7 +185,7 @@ const products = [
             "images/GORRA PLANA FRENTE.jpg",
             "images/gorra reverso.jpg"
         ],
-        category: "Gorra Plana",
+        category: "Gorra Plana.",
         baseColors: ["Negro"],
         designColors: ["Blanco"]
     },
@@ -197,7 +197,7 @@ const products = [
             "images/TSHIRT NEGRA ESSENTIALS.jpg",
             "images/TSHIRT BLANCA ESSENTIALS (1).jpg"
         ],
-        category: "Manga Corta Regular Fit",
+        category: "Manga Corta Regular Fit.",
         baseColors: ["Negro", "Blanco"],
         designColors: ["Blanco", "Negro"]
     },
@@ -209,7 +209,7 @@ const products = [
             "images/longsleeve negra essentials.jpg",
             "images/LONGSLEEVE BLANCA ESSENTIALS.jpg"
         ],
-        category: "Manga Larga",
+        category: "Manga Larga.",
         baseColors: ["Negro", "Blanco"],
         designColors: ["Blanco", "Negro"]
     }
